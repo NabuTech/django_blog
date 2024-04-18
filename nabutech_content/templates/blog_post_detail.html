@@ -1,0 +1,26 @@
+<!-- blog_post_detail.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ blog_post.title }}</title>
+</head>
+<body>
+    <header>
+        <!-- Header content (e.g., logo, navigation) -->
+    </header>
+    <main>
+        <article>
+            <h1>{{ blog_post.title }}</h1>
+            <p>Published on: {{ blog_post.created_at }}</p>
+            <p>Author: {{ blog_post.author }}</p>
+            <p>{{ blog_post.content }}</p>
+        </article>
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>

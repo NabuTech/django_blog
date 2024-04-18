@@ -10,3 +10,11 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.user.username
+
+class HomePageContent(models.Model):
+    image = models.ImageField(upload_to='images/')
+    introduction = models.TextField()
+
+    def __str__(self):
+        return "HomePage Content"
+    

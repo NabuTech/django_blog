@@ -1,0 +1,28 @@
+<!-- about.html (nabutech_content) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <!-- Header content (e.g., logo, navigation) -->
+    </header>
+    <main>
+        <h1>User Profile</h1>
+        <div>
+            <p>About: {{ user_profile.about }}</p>
+            <p>Twitter: <a href="{{ user_profile.twitter_link }}">{{ user_profile.twitter_link }}</a></p>
+            <p>LinkedIn: <a href="{{ user_profile.linkedin_link }}">{{ user_profile.linkedin_link }}</a></p>
+            <p>GitHub: <a href="{{ user_profile.github_link }}">{{ user_profile.github_link }}</a></p>
+            <!-- Add other profile information as needed -->
+        </div>
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>
